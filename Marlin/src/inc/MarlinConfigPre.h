@@ -36,6 +36,13 @@
 
 #include "../core/macros.h"
 #include "../core/boards.h"
+
+// Ender_AIO files
+#include "../../Ender_AIO_Configuration.h"
+#include "Ender_AIO_Configuration_SanityCheck.h"
+#include "Ender_AIO_Conditionals.h"
+#include "Ender_AIO_Conditionals_SanityCheck.h"
+
 #include "../../Configuration.h"
 
 #ifdef CUSTOM_VERSION_FILE
