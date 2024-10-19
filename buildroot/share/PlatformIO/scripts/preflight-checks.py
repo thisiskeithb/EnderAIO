@@ -124,6 +124,7 @@ if pioutil.is_pio_build():
         # Give warnings on every build
         #
         rm_ofile("inc", "Warnings")
+        rm_ofile("inc", "Ender_AIO_Warnings") # Ender AIO warnings
 
         #
         # Rebuild 'settings.cpp' for EEPROM_INIT_NOW

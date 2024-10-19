@@ -20,6 +20,7 @@
  *
  */
 #pragma once
+#define ENDER_AIO_VERSION 20241019
 
 #ifndef __MARLIN_FIRMWARE__
 #define __MARLIN_FIRMWARE__
@@ -41,6 +42,12 @@
 #include "../core/boards.h"
 
 #if USE_STD_CONFIGS
+  // Ender_AIO files
+  #include "../../Ender_AIO_Configuration.h"
+  #include "Ender_AIO_Changes.h"
+  #include "Ender_AIO_SanityCheck.h"
+  #include "Ender_AIO_Conditionals.h"
+
   #include "../../Configuration.h"
 #endif
 
